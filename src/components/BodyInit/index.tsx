@@ -1,4 +1,4 @@
-import { BodyContainer, Desc, Title } from './styled';
+import { BodyContainer, Desc, DescBox, Title } from './styled';
 
 export function BodyInit() {
   return (
@@ -8,11 +8,11 @@ export function BodyInit() {
         <br />
         Naped!
         <br />
-        <Desc>
-          O Naped pode ser sua fonte de informações sobre
-          <br />o mundo nerd e outros assuntos relacionados.
-        </Desc>
       </Title>
+      <Desc>
+        O Naped pode ser sua fonte de informações sobre
+        <br />o mundo nerd e outros assuntos relacionados.
+      </Desc>
     </BodyContainer>
   );
 }
