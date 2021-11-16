@@ -24,13 +24,13 @@ export const TextLink = styled.text`
   color: white;
   position: relative;
   padding: 0 0.5rem;
-  color: #f1f1f1;
+  color: #c4c4c4;
   transition: color 0.2s;
   & + a {
     margin-left: 2rem;
   }
   &:hover {
-    color: white;
+    color: #8257e6;
   }
   &.active {
     color: white;

@@ -1,6 +1,8 @@
 import {
+  BigButton,
   BigNewsContainer,
   BoxImage,
+  LitleButton,
   LitleImg,
   LitteShadows,
   LittleBox,
@@ -16,6 +18,7 @@ export function News() {
     <NewsContainer>
       <Shadow />
       <BigNewsContainer>
+        <BigButton>Lorem</BigButton>
         <BoxImage>
           <Myimage
             src="/../public/new1.svg"
@@ -31,33 +34,37 @@ export function News() {
       </BigNewsContainer>
       <LittleNews>
         <LittleBox>
+          <LitleButton>Lorem</LitleButton>
           <LitteShadows />
+
           <LitleImg>
-          <Myimage
-            src="/../public/new2.svg"
-            width="338"
-            height="165"
-            alt="News"
-          />
+            <Myimage
+              src="/../public/new2.svg"
+              width="338"
+              height="165"
+              alt="News"
+            />
           </LitleImg>
+
           <LittleTitle>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros
-          tellus, malesuada et velit in, blandit molestie dolor.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros
+            tellus, malesuada et velit in, blandit molestie dolor.
           </LittleTitle>
         </LittleBox>
         <LittleBox>
+          <LitleButton>Lorem</LitleButton>
           <LitteShadows />
           <LitleImg>
-          <Myimage
-            src="/../public/new3.svg"
-            width="338"
-            height="165"
-            alt="News"
-          />
+            <Myimage
+              src="/../public/new3.svg"
+              width="338"
+              height="165"
+              alt="News"
+            />
           </LitleImg>
           <LittleTitle>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros
-          tellus, malesuada et velit in, blandit molestie dolor.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros
+            tellus, malesuada et velit in, blandit molestie dolor.
           </LittleTitle>
         </LittleBox>
       </LittleNews>
