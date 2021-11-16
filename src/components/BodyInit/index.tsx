@@ -7,11 +7,10 @@ export function BodyInit() {
         Mundo nerd?
         <br />
         Naped!
-        <br/>
+        <br />
         <Desc>
-        O Naped pode ser sua fonte de informações sobre
-        <br/>
-        o mundo nerd e outros assuntos relacionados.
+          O Naped pode ser sua fonte de informações sobre
+          <br />o mundo nerd e outros assuntos relacionados.
         </Desc>
       </Title>
     </BodyContainer>

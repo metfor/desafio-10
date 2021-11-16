@@ -26,26 +26,25 @@ export const TextLink = styled.text`
   padding: 0 0.5rem;
   color: #f1f1f1;
   transition: color 0.2s;
-    & + a {
-        margin-left: 2rem;
-    }
-    &:hover {
-        color: white;
-    }
-    &.active {
-        color: white;
-        font-weight: bold;
-    }
-    &.active::after {
-        content: '';
-        height: 3px;
-        border-radius: 3px 3px 0 0;
-        width: 100%;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        background:  #8257E6;
-;
+  & + a {
+    margin-left: 2rem;
+  }
+  &:hover {
+    color: white;
+  }
+  &.active {
+    color: white;
+    font-weight: bold;
+  }
+  &.active::after {
+    content: '';
+    height: 3px;
+    border-radius: 3px 3px 0 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #8257e6;
   }
 `;
 export const BoxLink = styled.div`
