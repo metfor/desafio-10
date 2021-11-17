@@ -125,7 +125,6 @@ export const BarText = styled.div`
 `;
 export const BoxNewsSideBar = styled.div`
   margin-top: 80px;
-
   margin-left: -390px;
   display: grid;
   grid-template-columns: 338px;
@@ -162,15 +161,14 @@ export const Block = styled.div`
   margin-left: 100px;
 `;
 export const TextSideBar = styled.text`
-    font-family: Lexend Deca;
-    font-weight: 400;
-    font-size:13px;
-    line-height:20px;
-    color:#fefbfb;
-    position: absolute;
-    z-index: 2;
-    width: 303px;
-    margin-top:180px;
-    margin-left: 15px;
-
-`
+  font-family: Lexend Deca;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #fefbfb;
+  position: absolute;
+  z-index: 2;
+  width: 303px;
+  margin-top: 180px;
+  margin-left: 15px;
+`;
