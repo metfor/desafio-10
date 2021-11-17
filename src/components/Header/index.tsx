@@ -15,7 +15,7 @@ export function Header() {
         <ActiveLink href="/dads" activeClassName="">
           <TextLink>Filmes</TextLink>
         </ActiveLink>
-        <ActiveLink href="/dads" activeClassName="">
+        <ActiveLink href="/animes" activeClassName="active">
           <TextLink>Animes</TextLink>
         </ActiveLink>
         <ActiveLink href="/dads" activeClassName="">
