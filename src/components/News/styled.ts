@@ -114,4 +114,5 @@ export const LitleButton = styled.button`
   line-height: 15px;
   color: #fefbfb;
   position: absolute;
+  cursor: pointer;
 `;
