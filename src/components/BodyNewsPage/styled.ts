@@ -6,7 +6,7 @@ export const BodyContainer = styled.div`
   margin-right: 10%;
   display: grid;
   justify-content: left;
-  grid-template-rows: 130px 60px 60px 460px 290px 280px 460px 200px ;
+  grid-template-rows: 130px 60px 60px 470px 260px 260px 460px 200px ;
 `;
 export const Title = styled.h1`
   font-family: Lexend Deca;

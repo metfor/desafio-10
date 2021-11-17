@@ -61,7 +61,7 @@ export const LittleTitle = styled.text`
   line-height: 20px;
   color: #fefbfb;
   z-index: 2;
-  margin-top:85px;
+  margin-top: 85px;
   margin-left: 15px;
 `;
 export const LitleImg = styled.div`
@@ -69,36 +69,36 @@ export const LitleImg = styled.div`
   width: 320px;
   height: 158px;
   z-index: 1;
-`
+`;
 export const BigButton = styled.button`
-  background: #8257E6;
+  background: #8257e6;
   border-radius: 3px;
-  border:none;
+  border: none;
   width: 80px;
   height: 25px;
-  z-index:4;
-  margin-top:17px;
+  z-index: 4;
+  margin-top: 17px;
   margin-left: 30px;
   font-family: Lexend Deca;
   font-weight: 400;
-  font-size:14px;
-  line-height:17.5px;
-  color:#fefbfb;
+  font-size: 14px;
+  line-height: 17.5px;
+  color: #fefbfb;
   position: absolute;
-`
+`;
 export const LitleButton = styled.button`
-  background: #8257E6;
+  background: #8257e6;
   border-radius: 3px;
-  border:none;
+  border: none;
   width: 70px;
   height: 25px;
-  z-index:4;
-  margin-top:17px;
+  z-index: 4;
+  margin-top: 17px;
   margin-left: 30px;
   font-family: Lexend Deca;
   font-weight: 400;
-  font-size:12px;
-  line-height:15px;
-  color:#fefbfb;
+  font-size: 12px;
+  line-height: 15px;
+  color: #fefbfb;
   position: absolute;
-`
+`;

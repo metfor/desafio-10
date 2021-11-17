@@ -15,7 +15,6 @@ import {
   TextSubPage,
   TextTitlePage,
 } from './styled';
-
 export function BodyInitPageAnime() {
   return (
     <BodyContainer>

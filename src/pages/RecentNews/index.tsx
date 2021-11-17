@@ -1,4 +1,4 @@
-import { ButtonLorem, TextSideBar } from '../components/Body/styled';
+import { ButtonLorem, TextSideBar } from '../../components/Body/styled';
 import {
   BarrPurple,
   BoxImg,

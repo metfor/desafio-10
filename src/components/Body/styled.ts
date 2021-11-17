@@ -128,6 +128,7 @@ export const BoxNewsSideBar = styled.div`
   margin-left: -390px;
   display: grid;
   grid-template-columns: 338px;
+  grid-template-rows: 165px;
   grid-gap: 35px;
 `;
 export const ShadowBig = styled.div`
