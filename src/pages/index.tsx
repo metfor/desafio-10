@@ -1,9 +1,11 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import { BodyComponent } from '../Body';
+
 import { BodyInit } from '../components/BodyInit';
 import { Header } from '../components/Header';
 import { News } from '../components/News';
+import { RecentNews } from '../RecentNews';
 import styles from '../styles/Home.module.css';
 const Home: NextPage = () => {
   return (
@@ -17,6 +19,7 @@ const Home: NextPage = () => {
       <BodyInit />
       <News />
       <BodyComponent/>
+      <RecentNews/>
     </div>
   );
 };
