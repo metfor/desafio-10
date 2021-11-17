@@ -1,5 +1,9 @@
 import {
+  BarrBlack,
+  BarrPurple,
   BodyContainer,
+  BoxBarr,
+  BoxBlock,
   BoxNewsBody,
   ButtonLorem,
   ButtonRead,
@@ -16,6 +20,7 @@ import {
 export function BodyComponent() {
   return (
     <BodyContainer>
+      <BoxBlock>
       <BoxNewsBody>
         <NewsBox>
           <Shadow />
@@ -109,6 +114,10 @@ export function BodyComponent() {
         </NewsBox>
 
       </BoxNewsBody>
+      <BoxBarr>
+        <BarrBlack><BarrPurple/></BarrBlack>
+      </BoxBarr>
+      </BoxBlock>
     </BodyContainer>
   );
 }

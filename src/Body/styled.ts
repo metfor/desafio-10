@@ -80,3 +80,21 @@ export const ButtonRead = styled.button`
   line-height:20px;
   color:#fefbfb;
 `;
+export const BoxBlock = styled.div`
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+`
+export const BarrBlack = styled.div`
+    width:12px;
+    height:894px;
+    background: #282830;
+    position: absolute;
+`
+export const BarrPurple = styled.div`
+width: 8px;
+height:343px;
+background: #8257E6;
+margin-left:2px;
+`
+export const BoxBarr = styled.div``
