@@ -1,3 +1,4 @@
+import { ActiveLink } from '../ActiviLink';
 import {
   BarrBlack,
   BarrPurple,
@@ -52,7 +53,9 @@ export function BodyComponent() {
                 eros tellus, malesuada et velit in, blandit molestie dolor...
               </TextSub>
               <Data>00/00/0000</Data>
-              <ButtonRead>Ler notícia</ButtonRead>
+              <ActiveLink href="/news" activeClassName="">
+                <ButtonRead>Ler notícia</ButtonRead>
+              </ActiveLink>
             </TextBox>
           </NewsBox>
           <NewsBox>
@@ -76,7 +79,9 @@ export function BodyComponent() {
                 eros tellus, malesuada et velit in, blandit molestie dolor...
               </TextSub>
               <Data>00/00/0000</Data>
-              <ButtonRead>Ler notícia</ButtonRead>
+              <ActiveLink href="/news" activeClassName="">
+                <ButtonRead>Ler notícia</ButtonRead>
+              </ActiveLink>
             </TextBox>
           </NewsBox>
           <NewsBox>
@@ -100,7 +105,9 @@ export function BodyComponent() {
                 eros tellus, malesuada et velit in, blandit molestie dolor...
               </TextSub>
               <Data>00/00/0000</Data>
-              <ButtonRead>Ler notícia</ButtonRead>
+              <ActiveLink href="/news" activeClassName="">
+                <ButtonRead>Ler notícia</ButtonRead>
+              </ActiveLink>
             </TextBox>
           </NewsBox>
           <NewsBox>
@@ -124,7 +131,9 @@ export function BodyComponent() {
                 eros tellus, malesuada et velit in, blandit molestie dolor...
               </TextSub>
               <Data>00/00/0000</Data>
-              <ButtonRead>Ler notícia</ButtonRead>
+              <ActiveLink href="/news" activeClassName="">
+                <ButtonRead>Ler notícia</ButtonRead>
+              </ActiveLink>
             </TextBox>
           </NewsBox>
           <NewsBox>
@@ -148,7 +157,9 @@ export function BodyComponent() {
                 eros tellus, malesuada et velit in, blandit molestie dolor...
               </TextSub>
               <Data>00/00/0000</Data>
-              <ButtonRead>Ler notícia</ButtonRead>
+              <ActiveLink href="/news" activeClassName="">
+                <ButtonRead>Ler notícia</ButtonRead>
+              </ActiveLink>
             </TextBox>
           </NewsBox>
         </BoxNewsBody>
