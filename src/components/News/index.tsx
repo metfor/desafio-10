@@ -36,7 +36,6 @@ export function News() {
         <LittleBox>
           <LitleButton>Lorem</LitleButton>
           <LitteShadows />
-
           <LitleImg>
             <Myimage
               src="/../public/new2.svg"
@@ -45,7 +44,6 @@ export function News() {
               alt="News"
             />
           </LitleImg>
-
           <LittleTitle>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros
             tellus, malesuada et velit in, blandit molestie dolor.

@@ -6,6 +6,8 @@ export const BodyContainer = styled.div`
   margin-right: 10%;
   display: grid;
   align-items: left;
+  grid-template-rows:140px;
+  grid-row-gap: 11px;
 `;
 export const Title = styled.h1`
   font-family: Lexend Deca;
@@ -17,7 +19,9 @@ export const Title = styled.h1`
 export const Desc = styled.text`
   font-family: Inter;
   font-size: 20px;
-  line-height: 30px;
+  line-height:30px;
   font-weight: 500;
   color: #c4c4c4;
 `;
+export const DescBox = styled.div`
+`

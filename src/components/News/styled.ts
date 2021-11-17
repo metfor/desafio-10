@@ -10,7 +10,7 @@ export const NewsContainer = styled.div`
 `;
 export const BigNewsContainer = styled.div`
   display: flex;
-  width: 761px;
+  width: 701px;
   height: 350px;
 `;
 export const Myimage = styled(image)``;
@@ -42,7 +42,6 @@ export const Shadow = styled.div`
 export const LittleNews = styled.div`
   display: grid;
   grid-template-columns: 320px;
-
   margin-right: -30px;
 `;
 export const LitteShadows = styled.div`
@@ -52,11 +51,8 @@ export const LitteShadows = styled.div`
   height: 158px;
   z-index: 2;
 `;
-
 export const LittleBox = styled.div`
-  
   display: flex;
-  
 `;
 export const LittleTitle = styled.text`
   font-family: Lexend Deca;
@@ -67,14 +63,12 @@ export const LittleTitle = styled.text`
   z-index: 2;
   margin-top:85px;
   margin-left: 15px;
-  
 `;
 export const LitleImg = styled.div`
   position: absolute;
   width: 320px;
   height: 158px;
   z-index: 1;
-  
 `
 export const BigButton = styled.button`
   background: #8257E6;
@@ -107,5 +101,4 @@ export const LitleButton = styled.button`
   line-height:15px;
   color:#fefbfb;
   position: absolute;
-
 `
