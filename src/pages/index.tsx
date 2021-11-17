@@ -3,7 +3,7 @@ import Head from 'next/head';
 import { BodyComponent } from '../components/Body';
 import { BodyInit } from '../components/BodyInit';
 import { News } from '../components/News';
-import { RecentNews } from './RecentNews';
+import { RecentNews } from '../components/RecentNews';
 import styles from '../styles/Home.module.css';
 const Home: NextPage = () => {
   return (

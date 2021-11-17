@@ -1,4 +1,4 @@
-import { ButtonLorem, TextSideBar } from '../../components/Body/styled';
+import { ButtonLorem, TextSideBar } from '../Body/styled';
 import {
   BarrPurple,
   BoxImg,
@@ -13,7 +13,7 @@ import {
 export function RecentNews() {
   return (
     <RecentNewsContainer>
-      <Title>Notícias mais relevantes</Title>
+      <Title>Notícias mais recentes</Title>
       <BarrPurple />
       <BoxRecentNews>
         <BoxNew>

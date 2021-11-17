@@ -162,11 +162,35 @@ export function BodyComponent() {
               </ActiveLink>
             </TextBox>
           </NewsBox>
+          <NewsBox>
+            <Shadow />
+            <ButtonLorem>Lorem</ButtonLorem>
+            <ImgBox>
+              <ImgNext
+                src="/../public/5.svg"
+                width="200"
+                height="151"
+                alt="news1"
+              />
+            </ImgBox>
+            <TextBox>
+              <TextTitle>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                eros tellus, malesuada et velit in, blandit molestie dolor.
+              </TextTitle>
+              <TextSub>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                eros tellus, malesuada et velit in, blandit molestie dolor...
+              </TextSub>
+              <Data>00/00/0000</Data>
+              <ActiveLink href="/news" activeClassName="">
+                <ButtonRead>Ler notícia</ButtonRead>
+              </ActiveLink>
+            </TextBox>
+          </NewsBox>
         </BoxNewsBody>
         <BoxBarr>
-          <BarrBlack>
-            <BarrPurple />
-          </BarrBlack>
+          
         </BoxBarr>
       </BoxBlock>
       <SideBar>
