@@ -1,13 +1,24 @@
 import styled from 'styled-components';
 export const BodyContainer = styled.div`
   margin-top: 100px;
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 29.5%;
+  margin-right: 29.5%;
   display: grid;
   align-items: left;
   grid-template-rows: 140px;
   grid-row-gap: 11px;
+  @media (max-width: 2510px) {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  @media (max-width: 2100px) {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  @media (max-width: 1550px) {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 `;
 export const Title = styled.h1`
   font-family: Lexend Deca;

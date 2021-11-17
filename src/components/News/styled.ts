@@ -2,10 +2,22 @@ import styled from 'styled-components';
 import image from 'next/image';
 export const NewsContainer = styled.div`
   margin-top: 80px;
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
-  display: flex;
+  margin-left: 29.5%;
+  margin-right: 29.5%;
+  @media (max-width: 2510px) {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  @media (max-width: 2100px) {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  @media (max-width: 1550px) {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  display: grid;
+  grid-template-columns: 700px 290px;
   justify-content: space-between;
 `;
 export const BigNewsContainer = styled.div`
@@ -85,6 +97,7 @@ export const BigButton = styled.button`
   line-height: 17.5px;
   color: #fefbfb;
   position: absolute;
+  cursor: pointer;
 `;
 export const LitleButton = styled.button`
   background: #8257e6;
@@ -101,4 +114,5 @@ export const LitleButton = styled.button`
   line-height: 15px;
   color: #fefbfb;
   position: absolute;
+  cursor: pointer;
 `;

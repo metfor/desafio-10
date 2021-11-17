@@ -2,9 +2,20 @@ import styled from 'styled-components';
 import image from 'next/image';
 export const BodyContainer = styled.div`
   margin-top: 40px;
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 29.5%;
+  margin-right: 29.5%;
+  @media (max-width: 2510px) {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  @media (max-width: 2100px) {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  @media (max-width: 1550px) {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
   display: flex;
   justify-content: space-between;
 `;
@@ -12,6 +23,7 @@ export const BoxNewsBody = styled.div`
   display: grid;
   grid-row-gap: 35px;
   width: 80px;
+  position: relative;
 `;
 export const ImgBox = styled.div`
   z-index: 1;
@@ -43,6 +55,7 @@ export const ButtonLorem = styled.button`
   margin-top: 10px;
   margin-left: 10px;
   color: #fefbfb;
+  cursor: pointer;
 `;
 export const TextBox = styled.div`
   display: grid;
@@ -81,11 +94,32 @@ export const ButtonRead = styled.button`
   font-size: 11px;
   line-height: 20px;
   color: #fefbfb;
+  cursor: pointer;
 `;
 export const BoxBlock = styled.div`
   display: flex;
   justify-content: space-between;
   width: 700px;
+  height:900px;
+  overflow: auto;
+  ::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px ; 
+  border-radius: 10px;
+  background: #282830;
+;
+}
+::-webkit-scrollbar-thumb {
+  background: #8257e6; 
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8257e6; 
+  
+}
+
 `;
 export const BarrBlack = styled.div`
   width: 12px;
@@ -153,6 +187,7 @@ export const ButtonLoremBig = styled.button`
   margin-top: 10px;
   margin-left: 10px;
   color: #fefbfb;
+  cursor: pointer;
 `;
 export const Block = styled.div`
   display: grid;

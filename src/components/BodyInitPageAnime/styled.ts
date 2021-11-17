@@ -1,8 +1,19 @@
 import styled from 'styled-components';
 export const BodyContainer = styled.div`
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 30%;
+  margin-right: 30%;
+  @media (max-width:2100px){
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  @media (max-width: 2100px) {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  @media (max-width: 1550px) {
+    margin-left: 9%;
+    margin-right: 9%;
+  }
   display: grid;
   justify-content: left;
 `;

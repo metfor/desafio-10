@@ -2,9 +2,20 @@ import styled from 'styled-components';
 import image from 'next/image';
 export const RecentNewsContainer = styled.div`
   margin-top: 120px;
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 29.5%;
+  margin-right: 29.5%;
+  @media (max-width: 2510px) {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  @media (max-width: 2100px) {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  @media (max-width: 1600px) {
+    margin-left: 7%;
+    margin-right: 7%;
+  }
   display: grid;
 `;
 export const Title = styled.text`

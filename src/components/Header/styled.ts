@@ -1,8 +1,19 @@
 import styled from 'styled-components';
 export const HeaderContainer = styled.div`
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 29.5%;
+  margin-right: 29.5%;
+  @media (max-width: 2510px) {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  @media (max-width: 2100px) {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  @media (max-width: 1550px) {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -16,6 +27,7 @@ export const Logo = styled.h1`
   color: #8257e6;
 `;
 export const TextLink = styled.text`
+  margin-top:3px ;
   font-family: Inter;
   font-size: 16px;
   line-height: 19.36px;
@@ -26,6 +38,7 @@ export const TextLink = styled.text`
   padding: 0 0.5rem;
   color: #c4c4c4;
   transition: color 0.2s;
+  cursor: pointer;
   & + a {
     margin-left: 2rem;
   }
@@ -51,6 +64,7 @@ export const BoxLink = styled.div`
   width: 600px;
   display: flex;
   justify-content: space-between;
+  
 `;
 export const ButtonAcc = styled.button`
   width: 125px;
@@ -64,4 +78,5 @@ export const ButtonAcc = styled.button`
   font-size: 14px;
   font-weight: 400;
   line-height: 17.5px;
+  cursor: pointer;
 `;
