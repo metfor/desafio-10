@@ -18,7 +18,9 @@ export const NewsContainer = styled.div`
   }
   display: grid;
   grid-template-columns: 700px 290px;
-  justify-content: space-between;
+  grid-column-gap:20px;
+ 
+  width: 1200px;
 `;
 export const BigNewsContainer = styled.div`
   display: flex;
