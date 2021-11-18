@@ -88,7 +88,12 @@ export const AnimeList = styled.div`
   grid-row-gap: 52px;
   margin-top: 100px;
 `;
-export const AnimeImg = styled.div``;
+export const AnimeImg = styled.div`
+cursor: pointer;
+:hover{
+  filter: brightness(50%);
+}
+`;
 export const Shadow2 = styled.div`
   background: linear-gradient(
     359.82deg,
@@ -136,4 +141,9 @@ export const Button = styled.button`
   font-size: 18px;
   border: none;
   color: #c4c4c4;
+  cursor: pointer;
+  :hover{
+    border: 1px solid #8257e6;
+    color:#8257e6
+  }
 `;

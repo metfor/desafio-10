@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 import image from 'next/image';
 export const BodyContainer = styled.div`
-  
   margin-left: 30%;
   margin-right: 30%;
   @media (max-width:2100px){
@@ -60,7 +59,9 @@ export const ButtonLorem = styled.button`
   font-size: 18px;
   line-height:22.5px;
   color:#ffffff;
-
+  :hover{
+    border: 1px solid #c4c4c4;
+  }
 `;
 export const BigText= styled.text`
     font-family:Inter;

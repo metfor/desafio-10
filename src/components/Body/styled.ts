@@ -27,6 +27,7 @@ export const BoxNewsBody = styled.div`
 `;
 export const ImgBox = styled.div`
   z-index: 1;
+  cursor: pointer;
 `;
 export const ImgNext = styled(image)``;
 export const NewsBox = styled.div`
@@ -39,6 +40,7 @@ export const Shadow = styled.div`
   background: linear-gradient(360deg, #13131f 0%, rgba(19, 19, 31, 0) 100%);
   position: absolute;
   z-index: 2;
+  cursor: pointer;
 `;
 export const ButtonLorem = styled.button`
   width: 60px;
@@ -56,6 +58,9 @@ export const ButtonLorem = styled.button`
   margin-left: 10px;
   color: #fefbfb;
   cursor: pointer;
+  :hover{
+    border: 1px solid #c4c4c4;
+  }
 `;
 export const TextBox = styled.div`
   display: grid;
@@ -95,6 +100,9 @@ export const ButtonRead = styled.button`
   line-height: 20px;
   color: #fefbfb;
   cursor: pointer;
+  :hover{
+    border: 1px solid #c4c4c4;
+  }
 `;
 export const BoxBlock = styled.div`
   display: flex;
@@ -116,8 +124,8 @@ export const BoxBlock = styled.div`
   border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #8257e6; 
-  
+  background: #8257e6;
+  border: 1px solid #c4c4c4;
 }
 
 `;
@@ -150,6 +158,7 @@ export const Title = styled.text`
 export const BoxTextSide = styled.div`
   position: absolute;
   margin-left: -290px;
+  
 `;
 export const BarText = styled.div`
   width: 250px;
@@ -161,9 +170,10 @@ export const BoxNewsSideBar = styled.div`
   margin-top: 80px;
   margin-left: -390px;
   display: grid;
-  grid-template-columns: 338px;
+  grid-template-columns: 318px;
   grid-template-rows: 165px;
   grid-gap: 35px;
+  cursor: pointer;
 `;
 export const ShadowBig = styled.div`
   width: 337px;
@@ -188,6 +198,9 @@ export const ButtonLoremBig = styled.button`
   margin-left: 10px;
   color: #fefbfb;
   cursor: pointer;
+  :hover{
+    border: 1px solid #c4c4c4;
+  }
 `;
 export const Block = styled.div`
   display: grid;

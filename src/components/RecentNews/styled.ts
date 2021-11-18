@@ -39,7 +39,11 @@ export const BoxRecentNews = styled.div`
   grid-row-gap: 52px;
 `;
 export const BoxImg = styled.div``;
-export const BoxNew = styled.div``;
+export const BoxNew = styled.div`
+cursor: pointer;
+:hover{
+  filter: brightness(80%);
+}`;
 export const ImgNext = styled(image)``;
 export const Shadow = styled.div`
   width: 338px;
